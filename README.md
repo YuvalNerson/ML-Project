@@ -21,22 +21,3 @@ Final assignment for the Applied Machine Learning course, Bar-Ilan University. T
 ├── part2_colorization/
 │   └── (in progress)
 └── data/                          # Not included in the repo — large CSV files, see .gitignore
-Part I — Status (Alpha Research)
-[x] Data loading + fixed two structural bugs (date format, holiday ghost rows)
-
-[x] Built a superset of 18 features across different economic families
-
-[x] Full pipeline: build_alpha → config search → evaluation → submission saving
-
-[x] Fixed the evaluation logic to actually enforce the assignment's Sharpe/turnover requirements
-
-[x] Verified ≥10 alphas meeting all requirements (Sharpe > 1.2, turnover < 0.8, correlation ≤ 0.5)
-
-Full methodology, findings, and rationale for each feature are documented in overview.tex.
-
-Part II — Status (Image Colorization)
-[ ] Not started yet.
-
-Running the Notebook
-The notebook is built to run on Google Colab.
-Ensure the data is placed in a data/ folder parallel to the code folder (see the first os.chdir cell in the notebook).
