@@ -1,23 +1,9 @@
-# Final Project — Applied Machine Learning
+# Applied Machine Learning — Course Project
 
-Final assignment for the Applied Machine Learning course, Bar-Ilan University. The project consists of two separate parts:
+This repository is currently a placeholder for a two-part course project at Bar-Ilan University. The assignment topics are cross-sectional stock-return prediction and image colorization.
 
-* **Part I — Cross-Sectional Alpha Research:** Building a daily long/short book based on stock return predictions.
-* **Part II — Image Colorization:** Training a model that turns a grayscale image into a color image.
+## Repository status
 
-## Repo Structure
+The current `main` branch contains this README only; the notebooks, source files, data, and saved model outputs described in the original draft are not present. There are no results or runnable instructions to review yet.
 
-```text
-.
-├── README.md
-├── overview.tex                   # Methodology summary document (LaTeX, Overleaf)
-├── part1_alpha_research/
-│   ├── financial_template.ipynb   # The full notebook
-│   ├── financial_toolkit.py       # Base framework (FIXED, not edited)
-│   ├── directives.txt             # Original assignment instructions
-│   └── output/
-│       └── params.json            # Saved alphas + their feature subsets
-│                                  # (model_<i>.pt files are not included — see .gitignore)
-├── part2_colorization/
-│   └── (in progress)
-└── data/                          # Not included in the repo — large CSV files, see .gitignore
+When the project files are added, this README should be updated with the actual methods, evaluation results, setup steps, and links to the relevant notebooks.
